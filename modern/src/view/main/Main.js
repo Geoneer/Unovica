@@ -48,10 +48,9 @@ Ext.define('MyGeoExtApp.view.main.Main', {
             iconCls: 'fa-map-marker',
             layout: 'fit',
             items: [{
-                xtype: 'mappanel'
-            },
+                xtype: 'mappanel',
                 xtype: 'toolbar'
-            ]
+            }]
         }, {
             title: 'Groups',
             iconCls: 'x-fa fa-users',

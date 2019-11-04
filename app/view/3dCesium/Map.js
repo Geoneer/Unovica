@@ -1,4 +1,3 @@
-
 Ext.define('MyGeoExtApp.view.3dCesium.Map',{
     extend: 'Ext.panel.Panel',
 
