@@ -269,6 +269,10 @@
      */
     "css": [
         {
+            "path": "https://cesium.com/downloads/cesiumjs/releases/1.63/Build/Cesium/Widgets/widgets.css\",
+            "remote": true
+        },
+        {
             "path": "https://openlayers.org/en/v4.6.5/css/ol.css",
             "remote": true
         },
@@ -287,21 +291,21 @@
      * are supported.
      *
      */
-     "loader": {
-         // This property controls how the loader manages caching for requests:
-         //
-         //   - true: allows requests to receive cached responses
-         //   - false: disable cached responses by adding a random "cache buster"
-         //   - other: a string (such as the build.timestamp shown here) to allow
-         //     requests to be cached for this build.
-         //
-         "cache": false,
+    "loader": {
+        // This property controls how the loader manages caching for requests:
+        //
+        //   - true: allows requests to receive cached responses
+        //   - false: disable cached responses by adding a random "cache buster"
+        //   - other: a string (such as the build.timestamp shown here) to allow
+        //     requests to be cached for this build.
+        //
+        "cache": false,
 
-         // When "cache" is not true, this value is the request parameter used
-         // to control caching.
-         //
-         "cacheParam": "_dc"
-     },
+        // When "cache" is not true, this value is the request parameter used
+        // to control caching.
+        //
+        "cacheParam": "_dc"
+    },
 
     /**
      * Settings specific to production builds.

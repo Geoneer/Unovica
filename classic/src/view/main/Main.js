@@ -101,7 +101,12 @@ Ext.define('MyGeoExtApp.view.main.Main', {
             height: 22
         }]
     }, {
-        title: 'Map',
+        title: 'OL Map',
+        iconCls: 'fa-map-marker',
+        layout: 'fit',
+        items: [{ xtype: 'mappanel' }]
+    }, {
+        title: 'Cesium Map',
         iconCls: 'fa-map-marker',
         layout: 'fit',
         items: [{ xtype: 'mappanel' }]
