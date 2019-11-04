@@ -205,6 +205,10 @@
      */
     "js": [
         {
+            "path": "https://code.jquery.com/jquery-3.4.1.js",
+            "remote": true
+        },
+        {
             "path": "https://cesium.com/downloads/cesiumjs/releases/1.63/Build/Cesium/Cesium.js",
             "remote": true
         },
