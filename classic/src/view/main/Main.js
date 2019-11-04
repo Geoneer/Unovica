@@ -108,8 +108,11 @@ Ext.define('MyGeoExtApp.view.main.Main', {
     }, {
         title: 'Cesium Map',
         iconCls: 'fa-map-marker',
-        layout: 'fit',
-        items: [{ xtype: 'mappanel' }]
+        //layout: 'fit',
+        //items: [{ xtype: 'mappanel' }]
+        bind: {
+            html: '{CesiumViewer}'
+        }
     }, {
         title: 'Groups',
         iconCls: 'fa-users',
