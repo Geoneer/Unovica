@@ -1,4 +1,5 @@
-$('#cesiumContainer').append("new Cesium.Viewer('cesiumContainer');");
+$('#cesiumContainer').append('new Cesium.Viewer("cesiumContainer");');
+//var viewer = new Cesium.Viewer('cesiumContainer');
 // or
 
 //var divElement = document.createElement('cesiumContainer');
@@ -16,6 +17,6 @@ Ext.define('MyGeoExtApp.view.main.MainModel', {
         name: 'MyGeoExtApp',
         loremIpsum: '.........Project KLIC 2.0 ...... ',
         //CesiumViewer: <div id="cesiumContainer" style="width: 700px; height:400px"></div>
-        CesiumViewer: divElement
+        CesiumViewer: cesiumContainer
     }
 });
